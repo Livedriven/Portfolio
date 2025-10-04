@@ -16,6 +16,13 @@ header {
 
 }
 
+h1{
+    font-size: 1.9em;
+}
+p, li{
+    font-size: 1.14em;
+}
+
 nav {
     display: flex;
     flex-direction: column;
