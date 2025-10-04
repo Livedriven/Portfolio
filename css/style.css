@@ -36,7 +36,7 @@ nav {
     background-color: var(--vivid-sky-blue);
 }
 
-.cabridgem-blue {
+.cabridgem {
     background-color: var(--cabridgem-blue);
 }
 
@@ -56,11 +56,12 @@ a {
     text-align: center;
     margin: 10px;
     margin-top: 15px;
+    margin-bottom: 14px;
     border-radius: 12px;
 }
 
 .lineBreak {
     display: block;
     width: 200px;
-    margin-left: 28%;
+    margin-left: 31%;
 }
