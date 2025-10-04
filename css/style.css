@@ -1,30 +1,59 @@
 @import url(reset.css);
 @import url(variable.css);
 
-body{
+body {
     font-size: 16px;
-    background-color: var(--light-green);
+    background-color: var(--battleship-gray);
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     border-radius: 12px;
-    background-color: var(--cambridge-blue);
+    background-color: var(--cool-gray);
     color: var(--antiflash-white);
 
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: column;
 }
-a{
+
+.celadon {
+    background-color: var(--celadon);
+}
+
+.skyBlue {
+    background-color: var(--vivid-sky-blue);
+}
+
+.cabridgem-blue {
+    background-color: var(--cabridgem-blue);
+}
+
+a {
     text-decoration: none;
     color: var(--antiflash-white);
 }
-#foto{
+
+#foto {
     margin: 20px;
     margin-left: 17%;
     overflow: hidden;
     border-radius: 12px;
+}
+
+.artigo {
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+
+.lineBreak {
+    display: block;
+    width: 200px;
+    margin-left: 28%;
 }

@@ -1,14 +1,11 @@
 :root {
     --silver-2: #bbbbbbff;
+    --battleship-gray: #7d7e75ff;
     --antiflash-white: #eeeeeeff;
-    --mint-cream: #f7fff6ff;
+    --light-green: #87d68dff;
+    --cool-gray: #8491a3ff;
     --celadon: #bcebcbff;
     --light-green: #87d68dff;
     --cambridge-blue: #93b48bff;
-    --cool-gray: #8491a3ff;
-    --mint-cream: #f7fff6ff;
-    --celadon: #bcebcbff;
-    --light-green: #87d68dff;
-    --cambridge-blue: #93b48bff;
-    --cool-gray: #8491a3ff;
+    --vivid-sky-blue: #44ccffff;
 }
