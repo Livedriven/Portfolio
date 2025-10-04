@@ -40,8 +40,12 @@ nav {
     background-color: var(--vivid-sky-blue);
 }
 
-.cabridgem {
-    background-color: var(--cabridgem-blue);
+.silver {
+    background-color: var(--silver-2);
+}
+
+.teste{
+    background-color: var(--nyanza);
 }
 
 a {
