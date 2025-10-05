@@ -40,12 +40,6 @@ main{
     margin-top: 20px;
 }
 
-
-a {
-    text-decoration: none;
-    color: var(--nyanza);
-}
-
 .celadon {
     display: flex;
     flex-direction: column;
@@ -87,8 +81,14 @@ a {
     width: 200px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--nyanza);
+}
+
 h1{
     font-size: 1.6em;
+    color: var(--nyanza);
 }
 
 p, li{
@@ -99,12 +99,17 @@ ul{
     list-style: none;
     margin-top: 10px;
 }
+#link-final{
+    text-align: center;
+    padding: 10px;
+}
 
 @media (max-width: 370px) {
     
     h1{
         font-size: 1.5em;
         margin-left: auto;
+        pa
     }
 
     .link-interno{
