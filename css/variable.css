@@ -1,7 +1,7 @@
 :root {
-    --silver-2: #bbbbbbff;
+    --silver-2: rgb(204, 202, 202);
     --battleship-gray: #7d7e75ff;
-    --antiflash-white: rgba(238, 238, 238, 0.151);
+    --antiflash-white: rgba(121, 100, 100, 0.39);
     --cool-gray: rgb(156, 163, 173);
     --white: #ffffff ;
     --nyanza: #e2fadbff;
