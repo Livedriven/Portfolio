@@ -4,62 +4,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Web</title>
+    <title>Portfólio Web - Richard Henrique</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- SEO básico -->
+    <meta name="description" content="Portfólio pessoal de Richard Henrique - Desenvolvedor e estudante de tecnologia.">
+    <meta name="author" content="Richard Henrique">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#sobre-mim" class="link-interno">Sobre mim</a>
-            <a href="#pagina" class="link-interno">Página que eu gosto</a>
+
+    <header class="site-header">
+        <nav class="nav-menu">
+            <a href="#sobre-mim" class="nav-link">Sobre mim</a>
+            <a href="#pagina" class="nav-link">Página que eu gosto</a>
+            <a href="#projetos" class="nav-link">Projetos</a>
+            <a href="#contato" class="nav-link">Contato</a>
         </nav>
-        <h1>Richard Henrique</h1>
+
+        <h1 class="site-title">Meu Portfolio</h1>
     </header>
-    <main>
-     <section>
-        <div>
-            <img src="./img/Uma foto minha.jpeg" alt="Uma foto minha de terno (Richard)" width="300px" height="400px" id="foto">
-                <article class="artigo celadon">
-                    <h2>Uma breve descrição sobre mim:</h2>
-                    <p class="lineBreak">Primeiramente meu nome é Richard tenho 17 anos, e sou <em>Brasileiro </em></p>
+
+    <main class="main-content">
+
+        <!-- SOBRE MIM -->
+        <section id="sobre-mim" class="section section-about">
+            <div class="about-profile">
+                <img src="./img/Uma foto minha.jpeg" alt="Uma foto minha de terno (Richard)" width="300" height="400"
+                    class="profile-photo">
+
+                <article class="card about-card card--primary">
+                    <h2 class="card-title">Uma breve descrição sobre mim:</h2>
+                    <p class="text-highlight">
+                        Primeiramente meu nome é Richard, tenho 17 anos, e sou <em>Brasileiro</em>.
+                    </p>
                 </article>
-        </div>
-            <div>
-                <article class=" artigo nyanza">
-                    <h2>Residencia:</h2>
-                    <p class="residencia"><strong>Vespasiano-MG</strong></p>
-                    <p>Bairro: <strong>Gavea ||</strong></p>
+            </div>
+
+            <div class="about-details">
+                <article class="card location-card card--secondary">
+                    <h2 class="card-title">Residência:</h2>
+                    <p class="location-text"><strong>Vespasiano-MG</strong></p>
+                    <p>Bairro: <strong>Gávea</strong></p>
                 </article>
-                <article class="artigo sky-blue">
-                    <h2>Habilidades de Maior Orgulho:</h2>
-                    <ul>
-                        <li>Confiaça</li>
+
+                <article class="card skills-card card--accent">
+                    <h2 class="card-title">Habilidades de Maior Orgulho:</h2>
+                    <ul class="skills-list">
+                        <li>Confiança</li>
                         <li>Comunicação assertiva</li>
-                        <li>Empatico</li>
+                        <li>Empático</li>
                         <li>Comprometido</li>
                         <li>Liderança</li>
                     </ul>
                 </article>
-                <article class="artigo silver">
-                    <h2>Outras Habilidades;</h2>
-                    <ul>
-                        <li>HTML(iniciante)</li>
-                        <li>CSS (iniciante/intermediario)</li>
-                        <li>Java Script (iniciante/intermediario)</li>
+
+                <article class="card skills-card card--neutral">
+                    <h2 class="card-title">Outras Habilidades:</h2>
+                    <ul class="skills-list">
+                        <li>HTML (iniciante)</li>
+                        <li>CSS (iniciante/intermediário)</li>
+                        <li>JavaScript (iniciante/intermediário)</li>
                         <li>C# (iniciante)</li>
                         <li>Git</li>
                     </ul>
                 </article>
             </div>
         </section>
-        <a rel="noopener"
-        href="https://www.chess.com/pt-BR/blog/Emillyrabelo/48-curiosidades-sobre-xadrez-quais-voce-ja-sabia"
-        target="_blank" id="link-final">Artigo Legal sobre Xadrez</a>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section section-projects">
+            <h2 class="section-title">Meus Projetos</h2>
+
+            <article class="card project-card card--primary">
+                <h3 class="card-title">Lobo Selvagem — Webpage</h3>
+                <p>
+                    Landing page temática desenvolvida com foco em estrutura semântica,
+                    estilização moderna e organização visual.
+                </p>
+                <p><strong>Tecnologias:</strong> HTML, CSS</p>
+                <a href="https://github.com/Livedriven/lobo-selvagem-webpage" target="_blank" rel="noopener"
+                    class="project-link">
+                    Ver no GitHub
+                </a>
+            </article>
+
+            <article class="card project-card card--secondary">
+                <h3 class="card-title">To-Do List Simples</h3>
+                <p>
+                    Aplicação de lista de tarefas com lógica em JavaScript,
+                    manipulação do DOM e foco em usabilidade básica.
+                </p>
+                <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/Livedriven/To-Do-List-simples" target="_blank" rel="noopener"
+                    class="project-link">
+                    Ver no GitHub
+                </a>
+            </article>
+
+            <article class="card project-card card--accent">
+                <h3 class="card-title">Relógio Digital</h3>
+                <p>
+                    Relógio digital funcional utilizando JavaScript para controle de tempo,
+                    atualização dinâmica e formatação de horas.
+                </p>
+                <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/Livedriven/relogio-digital" target="_blank" rel="noopener"
+                    class="project-link">
+                    Ver no GitHub
+                </a>
+            </article>
+
+            <article class="card project-card card--neutral">
+                <h3 class="card-title">Página Flores</h3>
+                <p>
+                    Projeto visual focado em layout, cores e apresentação estética,
+                    explorando conceitos de design e estruturação de páginas.
+                </p>
+                <p><strong>Tecnologias:</strong> HTML, CSS</p>
+                <a href="https://github.com/Livedriven/Projetos/tree/main/Pagina-Flores" target="_blank" rel="noopener"
+                    class="project-link">
+                    Ver no GitHub
+                </a>
+            </article>
+        </section>
+
+        <!-- LINK EXTERNO -->
+        <section id="pagina" class="section section-links">
+            <a rel="noopener"
+                href="https://www.chess.com/pt-BR/blog/Emillyrabelo/48-curiosidades-sobre-xadrez-quais-voce-ja-sabia"
+                target="_blank" class="external-link">
+                Artigo Legal sobre Xadrez
+            </a>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section section-contact">
+            <h2 class="section-title">Contato</h2>
+            <a href="richardhenriquedeabreuferreira@gmail.com"><img src="img/emailImage.svg"
+                    alt="uma imagem do gmail"></a>
+            <p>GitHub: <strong>Livedriven</strong></p>
+        </section>
+
     </main>
-    <footer>
-        <p>todos os direitos reservados</p>
+
+    <footer class="site-footer">
+        <p>Todos os direitos reservados — 2026</p>
     </footer>
+
 </body>
 
 </html>

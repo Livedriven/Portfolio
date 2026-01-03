@@ -1,0 +1,16 @@
+.site-header {
+    display: flex;
+    width: 100%;
+    max-height:100px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: var(--cool-gray);
+    box-shadow: var(--shadow);
+
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+}

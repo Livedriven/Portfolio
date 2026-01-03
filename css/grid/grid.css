@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+    ;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    font-size: 16px;
+    background: linear-gradient(125deg, var(--silver-2), var(--battleship-gray));
+}
+
+.site-header{
+    grid-area: header;
+}
+.main-content{
+    grid-area: main;
+}
+.site-footer{
+    grid-area: footer;
+}
