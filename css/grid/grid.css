@@ -1,3 +1,4 @@
+@import url(../variable/variable.css);
 body {
     display: grid;
     grid-template-areas: 
@@ -8,7 +9,7 @@ body {
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
     font-size: 16px;
-    background: linear-gradient(125deg, var(--silver-2), var(--battleship-gray));
+    background: linear-gradient(100deg, var(--silver-2), var(--bg-main));
 }
 
 .site-header{

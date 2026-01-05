@@ -1,3 +1,4 @@
+@import url(../variable/variable.css);
 .site-header {
     display: flex;
     width: 100%;

@@ -7,5 +7,18 @@
     --nyanza: #e2fadbff;
     --celadon: #bcebcbff;
     --vivid-sky-blue: #44ccffff;
-    --shadow: 1px 2px 0 4px var(--antiflash-white);
+    --shadow: 1px 2px 2px 2px var(--antiflash-white);
+    
+  --bg-main: #F4F7FB;
+  --bg-card: #FFFFFF;
+
+  --text-main: #1F2933;
+  --text-muted: #6B7280;
+
+  --primary: #2563EB;
+  --secondary: #60A5FA;
+  --accent: #22C55E;
+
+  --border-light: #E5E7EB;
 }
+
